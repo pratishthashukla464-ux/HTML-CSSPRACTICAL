@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 2 - Git Repository</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML and CSS Lab</h1>
+        <h2>Practical 2: Pushing and Cloning a Repository</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3>Aim</h3>
+            <p>To push commits to a remote repository and clone it.</p>
+        </section>
+
+        <section>
+            <h3>Task 1: Create Remote Repository</h3>
+            <p>Create a bare repository and connect it as origin.</p>
+            <pre>git init --bare ../html-remote
+git remote add origin ../html-remote
+git remote -v</pre>
+        </section>
+
+        <section>
+            <h3>Task 2: Push Commits</h3>
+            <p>Push the commits to the remote repository.</p>
+            <pre>git push origin main</pre>
+        </section>
+
+        <section>
+            <h3>Task 3: Clone Repository</h3>
+            <p>Create a copy of the remote repository.</p>
+            <pre>git clone html-remote html-copy
+cd html-copy
+git log --oneline</pre>
+        </section>
+
+        <section>
+            <h3>Result</h3>
+            <p>Successfully pushed and cloned the Git repository.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>BCS352 - HTML and CSS Introduction Lab</p>
+    </footer>
+
+</body>
+</html>

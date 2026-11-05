@@ -1,10 +1,10 @@
-Lab 4 Divs Attributes
+ Lab 4 Divs Attributes
 
-Each HTML file has its rendered output preview saved in the same folder with the same filename and a `.png` extension.
+Each HTML file has its rendered output preview saved in the same folder with the same filename and a .png extension.
 
 attendance-fixed.html
 HTML: [attendance-fixed.html](attendance-fixed.html)
-Output preview: [attendance-fixed.png](attendance-fixed.png)
+ Output preview: [attendance-fixed.png](attendance-fixed.png)
 
 [Output preview for attendance-fixed.html](attendance-fixed.png)
 
@@ -19,10 +19,3 @@ layout.html
  Output preview: [layout.png](layout.png)
 
 [Output preview for layout.html](layout.png)
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/pratishthashukla464-ux/HTML-CSSPRACTICAL.git
-git push -u origin main

@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --main-color: #2563eb;
+            --background-color: #eff6ff;
+            --spacing: 16px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            padding: var(--spacing);
+        }
+
+        h1 {
+            color: var(--main-color);
+        }
+
+        .card {
+            background-color: white;
+            border: 2px solid var(--main-color);
+            padding: var(--spacing);
+            margin-top: var(--spacing);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Variables Demo</h1>
+    <div class="card">
+        <h2>My Card</h2>
+        <p>This card uses reusable CSS variables.</p>
+    </div>
+</body>
+</html>

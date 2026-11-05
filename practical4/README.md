@@ -19,3 +19,10 @@ layout.html
  Output preview: [layout.png](layout.png)
 
 [Output preview for layout.html](layout.png)
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pratishthashukla464-ux/HTML-CSSPRACTICAL.git
+git push -u origin main

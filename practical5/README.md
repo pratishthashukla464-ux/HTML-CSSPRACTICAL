@@ -19,10 +19,3 @@ HTML: [portfolio.html](portfolio.html)
 Output preview: [portfolio.png](portfolio.png)
 
 [Output preview for portfolio.html](portfolio.png)
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/pratishthashukla464-ux/HTML-CSSPRACTICAL.git
-git push -u origin main

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive CSS Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f8fafc;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+        }
+
+        .card h2 {
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Grid Cards</h1>
+
+    <div class="grid-container">
+        <div class="card"><h2>HTML</h2><p>Webpage structure.</p></div>
+        <div class="card"><h2>CSS</h2><p>Webpage styling.</p></div>
+        <div class="card"><h2>JavaScript</h2><p>Webpage interactivity.</p></div>
+        <div class="card"><h2>Git</h2><p>Version control.</p></div>
+    </div>
+</body>
+</html>

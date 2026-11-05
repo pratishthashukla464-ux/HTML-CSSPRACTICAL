@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Grid Page Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            gap: 10px;
+            min-height: 400px;
+        }
+
+        header {
+            grid-area: header;
+            background: #1d4ed8;
+            color: white;
+            padding: 20px;
+        }
+
+        aside {
+            grid-area: sidebar;
+            background: #dbeafe;
+            padding: 20px;
+        }
+
+        main {
+            grid-area: main;
+            background: #f1f5f9;
+            padding: 20px;
+        }
+
+        footer {
+            grid-area: footer;
+            background: #334155;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <header><h1>My Website</h1></header>
+        <aside><h2>Sidebar</h2><p>Navigation links</p></aside>
+        <main><h2>Main Content</h2><p>This area contains the main page content.</p></main>
+        <footer>My Website Footer</footer>
+    </div>
+</body>
+</html>
